@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* !navbar */
+#nav-bar {
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-bar #profile-img {
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+#nav-bar h2,
+#nav-bar p {
+  text-align: center;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#nav-bar ul li:hover {
+  background: #444;
+}
+#nav-bar ul li {
+  width: 110%;
+  text-align: center;
+  border-bottom: 4px dotted #fff;
+  padding: 5px;
+}
+
+#nav-bar ul li:last-child {
+  border: none;
+}
+
+/*! main header */
+#main-header {
+  height: 60vh;
+}
+
+#main-header h1 {
+  font-size: 3rem;
+}
+
+#main-header p{
+  font-size: 1.5rem;
+}
+
+/*! Main Content  */
+#main-content .main-img {
+  display: none;
+}
+
+#main-text #info .box {
+  display: block;
+}
+
+/*! Secondary Text */
+#sec-text {
+  display: block;
+  height: auto;
+}
+#sec-text #text {
+  width: 100%;
+  display: block;
+}
+
+#sec-text #text h1 {
+  font-size: 1.7rem;
+}
+
+#sec-text #skills {
+  width: 100%;
+  display: block;
+}
+
+/*! Footer */
+#main-footer {
+  width: 100%;
+  height: 30vh;
+}
